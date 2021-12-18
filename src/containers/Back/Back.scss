@@ -80,7 +80,7 @@
 
   .holidayMessage {
     width: 55%;
-    padding: 2rem 2rem 2rem 2rem;
+    padding: 2rem 1rem 2rem 2rem;
 
     h2 {
       text-align: left;
@@ -97,8 +97,10 @@
 @media (min-width: 1200px) {
   .holidayMessage {
     p {
+      flex-grow: 1;
       font-size: 1rem;
       line-height: 1.75rem;
+      margin: 1rem 0;
     }
   }
 }

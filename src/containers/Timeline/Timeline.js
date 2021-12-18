@@ -1,19 +1,16 @@
-import React, { Component } from "react";
-import "./Timeline.scss";
+import React from "react";
 import Event from "../../components/Event/Event";
 import { eventsData } from "../../services/events-data.js";
+import "./Timeline.scss";
 
-export default class Timeline extends Component {
-  render() {
-    return (
-      <div className="timeline">
-        <div className="christmasLights"></div>
-        <div className="events">
-          {eventsData.map((event) => {
-            return <Event event={event} />;
-          })}
-        </div>
+export default function Timeline() {
+  return (
+    <div className="timeline">
+      <div className="events" id="ref">
+        {eventsData.map((event, index) => {
+          return <Event event={event} index={index} key={index} />;
+        })}
       </div>
-    );
-  }
+    </div>
+  );
 }

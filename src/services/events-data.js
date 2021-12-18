@@ -58,6 +58,7 @@ export const eventsData = [
         alt: "Washington DC Cemetary",
       },
     ],
+    color: "active red",
   },
   {
     date: "April 17 Visit from Tara and Paige",
@@ -80,6 +81,7 @@ export const eventsData = [
         alt: "Giraffe at Pittsburgh Zoo",
       },
     ],
+    color: "active green",
   },
   {
     date: "May 20 Mom and Jessa Visit",
@@ -97,6 +99,7 @@ export const eventsData = [
           "The Duquense Incline. One of the 2 remaining funiculars that used to dot the hills along the rivers, taking steel workers from their homes on top to the mills along the river.",
       },
     ],
+    color: "active red",
   },
   {
     date: "May 30, River’s 1st Camping Trip",
@@ -136,6 +139,7 @@ export const eventsData = [
         alt: "River jumping into the lake",
       },
     ],
+    color: "active yellow",
   },
   {
     date: "June 12, 3rd Anniversary in Hershey, PA",
@@ -165,6 +169,7 @@ export const eventsData = [
           "Alyssa rolled her ankle coming off the curb into Hershey Chocolate World, so we rolled her around in a wheelchair for the morning!",
       },
     ],
+    color: "active green",
   },
   {
     date: "August 7, Philly",
@@ -185,6 +190,7 @@ export const eventsData = [
         subtitle: "An authentic Philly Cheesesteak",
       },
     ],
+    color: "active yellow",
   },
   {
     date: "August - Boston",
@@ -217,6 +223,7 @@ export const eventsData = [
           "We decided to go on a last-minute trip down to the North End (aka Little Italy) for some street pizza and ran into an amazing street performance with some incredible musicians.",
       },
     ],
+    color: "active red",
   },
   {
     date: "October 16 - Alyssa’s Half Marathon and Parents",
@@ -236,6 +243,7 @@ export const eventsData = [
         alt: "River sitting on Parent's laps",
       },
     ],
+    color: "active yellow",
   },
   {
     date: "October 22 - Backpacking Shenandoah National Park",
@@ -259,6 +267,7 @@ export const eventsData = [
         alt: "Brian profile in Shenandoah",
       },
     ],
+    color: "active red",
   },
   {
     date: "Doggie Photo Dump!",
@@ -288,5 +297,6 @@ export const eventsData = [
         alt: "River sitting behind Brian on stairs",
       },
     ],
+    color: "active green",
   },
 ];

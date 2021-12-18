@@ -1,22 +1,29 @@
+.eventWrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
 .yearEvents {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  margin: 2rem 0 8rem 0;
-
-  .description {
-    max-width: 56rem;
-  }
+  width: 85%;
+  padding: 2rem 1rem 5rem 2rem;
 
   h2 {
     text-align: left;
     font-size: 1.125rem;
-    color: #e5e5e5;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #f8b229;
+    // color: #e5e5e5;
   }
 
   p {
     text-align: left;
     font-size: 1rem;
+    line-height: 1.5rem;
     color: #e5e5e5;
   }
 }
@@ -25,14 +32,13 @@
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
-  max-width: 56rem;
   margin: 0.5rem 0;
 }
 
 .thumbnail {
   border-radius: 0.25rem; /* Rounded border */
   padding: 0.5rem; /* Some padding */
-  height: 12rem;
+  height: 7rem;
   margin: 0 0.5rem 0.5rem 0;
 }
 
@@ -40,4 +46,80 @@
 .thumbnail:hover {
   border: 0.125rem solid #ddd; /* Gray border */
   cursor: pointer;
+}
+
+.christmasLights {
+  width: 15%;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+
+  .vl {
+    border-right: 0.125rem solid #e5e5e5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  li {
+    width: 2rem;
+    height: 2rem;
+    text-align: center;
+    line-height: 2rem;
+    border-radius: 1rem;
+    background: #161515;
+    border: 2px solid #e5e5e5;
+    margin: 0 -1rem 0 0.5rem;
+    display: inline-block;
+    position: relative;
+  }
+
+  li::before {
+    content: "";
+    position: absolute;
+    top: 0.9rem;
+    left: -4rem;
+    width: 4rem;
+    height: 0.2rem;
+    background: #e5e5e5;
+    z-index: -1;
+  }
+
+  .active {
+    border: none;
+    &.red {
+      box-shadow: rgba(187, 37, 40, 0.5) 0 0 15px 8px;
+      background: #bb2528;
+    }
+    &.yellow {
+      box-shadow: rgba(248, 178, 41, 0.5) 0 0 15px 8px;
+      background: #f8b229;
+    }
+    &.green {
+      box-shadow: rgba(20, 107, 58, 0.5) 0 0 15px 8px;
+      background: #146b3a;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .thumbnail {
+    height: 12rem;
+  }
+
+  .yearEvents {
+    padding: 4rem 0rem 4rem 0rem;
+    margin: 0 4rem 0rem 6rem;
+    border-bottom: 0.088rem solid silver;
+  }
+
+  .christmasLights {
+    .vl {
+      justify-content: flex-start;
+    }
+
+    li {
+      margin: 8rem -1rem 0rem 0.5rem;
+    }
+  }
 }
