@@ -36,25 +36,27 @@ function Back() {
             spent a few (expensive) weeks in Boston where we got to meet up with
             friends, eat amazing food, and Brian got to implement his research
             on a real autonomous vehicle. Boston was amazing, but we still love
-            our home in Pittsburgh.
+            our home in Pittsburgh. While we thought that was all the excitement
+            we’d get this year, around Thanksgiving an unexpected job
+            opportunity came up and Alyssa decided to leave SAE to work as the
+            first full-time software developer for a startup working on building
+            the augmented reality layer of metaverse. We’re both excited for
+            this unique opportunity and to see where it takes her in the future.
           </p>
           <p>
             This year has really brought us closer together as a couple as we’ve
             wrestled with questions surrounding future career plans, family
-            relationships, and religion. While many of those questions remained
+            relationships, and religion. While many of those questions remain
             unanswered, we’ve both found an incredible sense of gratitude for
             what we do have, and for our relationship as a couple. We are
             incredibly grateful for the many open, honest, and real
-            conversations we’ve had with friends and family, and for the depth
-            those conversations have added to those relationships. We hope that
-            this Holiday season brings you opportunities to build stronger
-            relationships with loved ones both near and far, and a renewed sense
-            of gratitude for the gift we each have of living each day.
+            conversations we’ve had with friends and family this year, and for
+            the depth those conversations have added to those relationships. We
+            hope that this Holiday season brings you opportunities to build
+            stronger relationships with loved ones both near and far, and a
+            renewed sense of gratitude for the gift we each have of living each
+            day.
           </p>
-          {/* <div className="arrows-down">
-            <i className="icon-down--small fas fa-chevron-down"></i>
-            <i className="icon-down--large fas fa-chevron-down"></i>
-          </div> */}
         </div>
       </div>
     </>

@@ -88,18 +88,18 @@
     }
 
     p {
-      font-size: 1rem;
+      font-size: 0.875rem;
       line-height: 1.5rem;
       padding: 0;
     }
   }
 }
 
-@media (min-width: 1150px) {
+@media (min-width: 1200px) {
   .holidayMessage {
     p {
       flex-grow: 1;
-      font-size: 1.25rem;
+      font-size: 1.125rem;
       line-height: 1.875rem;
       margin: 1rem 0;
     }
