@@ -41,7 +41,7 @@ import stairClimber from "../assets/stair_climber.jpeg";
 
 export const eventsData = [
   {
-    date: "December 30",
+    date: "December 30 - D.C Trip",
     description:
       "We met up in Washington, D.C. with Craig and Kate Maughn, some good friends from Stanford. Most things were closed but it was great to meet up with friends and bond over some seriously good burgers.",
     images: [
@@ -61,7 +61,7 @@ export const eventsData = [
     color: "active red",
   },
   {
-    date: "April 17 Visit from Tara and Paige",
+    date: "April 17 - Visit from Tara and Paige",
     description:
       "We didn’t take enough photos, but we loved having Alyssa’s sister Tara and our adorable niece Paige come visit us in Pittsburgh! Even though it was surprisingly cold, we got to go to the Pittsburgh Zoo and show them some of our favorite places.",
     images: [
@@ -84,7 +84,7 @@ export const eventsData = [
     color: "active green",
   },
   {
-    date: "May 20 Mom and Jessa Visit",
+    date: "May 20 - Mom and Jessa Visit",
     description:
       "Again, not enough pictures, but Brian’s mom and sister Jessa came to visit us. This time the weather swung the other way and was super hot the entire time! Our favorite part was driving out to Gettysburgh where we got a private tour of the battlefield from a tour guide who loved to talk so much about history we got an extra 2 hours of tour for free.",
     images: [
@@ -102,7 +102,7 @@ export const eventsData = [
     color: "active red",
   },
   {
-    date: "May 30, River’s 1st Camping Trip",
+    date: "May 30 - River’s 1st Camping Trip",
     description:
       "We didn’t get out camping enough this year (maybe burned out from camping all summer last year), but we had to introduce River to one of our favorite family activities! She was a natural, and it was our first time camping in an Adirondack shelter. We also took her kayaking again and had a great time. So far we both absolutely love camping out East!",
     images: [
@@ -142,7 +142,7 @@ export const eventsData = [
     color: "active yellow",
   },
   {
-    date: "June 12, 3rd Anniversary in Hershey, PA",
+    date: "June 12 - 3rd Anniversary in Hershey, PA",
     description:
       "We’ve been married for 3 years now! In a hope to be more safe during the continuing worldwide pandemic, we decided to stay local this year and visit HersheyPark in Hershey, PA. Alas, it was so crowded that some of the lines had 4 hours waits and there was absolutely no attempt at social distancing, so it was quite a shock after isolating ourselves for the better part of a year. We ate too much junk food and rode some really fun rides, and stayed in an amazing Bed and Breakfast full of the warmth and hospitality we’ve come to love from the people here in Pennsylvania.",
     images: [
@@ -172,7 +172,7 @@ export const eventsData = [
     color: "active green",
   },
   {
-    date: "August 7, Philly",
+    date: "August 7 - Philly",
     description:
       "We stopped in Philly on our way up to Boston for the in-person portion of Brian’s internship. We were both surprised by how much we liked it. Although running up the steps of the Museum of Art was a huge disappointment: somehow I remember them being portrayed a lot bigger in the Rocky movies…",
     images: [

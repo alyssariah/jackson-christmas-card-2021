@@ -4,7 +4,7 @@
   width: 100%;
 }
 
-.yearEvents {
+.yearEvent {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -13,7 +13,7 @@
 
   h2 {
     text-align: left;
-    font-size: 1.125rem;
+    font-size: 1.25rem;
     font-weight: 600;
     margin-bottom: 0.5rem;
     color: #f8b229;
@@ -22,7 +22,7 @@
 
   p {
     text-align: left;
-    font-size: 1rem;
+    font-size: 1.25rem;
     line-height: 1.5rem;
     color: #e5e5e5;
   }
@@ -42,7 +42,6 @@
   margin: 0 0.5rem 0.5rem 0;
 }
 
-/* Add a hover effect (blue shadow) */
 .thumbnail:hover {
   border: 0.125rem solid #ddd; /* Gray border */
   cursor: pointer;
@@ -53,12 +52,35 @@
   display: flex;
   align-items: stretch;
   justify-content: center;
+  position: relative;
 
   .vl {
     border-right: 0.125rem solid #e5e5e5;
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+    &.first {
+      margin-top: 1.875rem;
+    }
+  }
+
+  .outlet {
+    position: absolute;
+    top: 0;
+    left: 45%;
+    background-color: #e5e5e5;
+    width: 2rem;
+    height: 0.35rem;
+    z-index: 4;
+  }
+
+  .plug {
+    font-size: 2rem;
+    position: absolute;
+    top: -0.125rem;
+    left: 50%;
+    color: #e5e5e5;
   }
 
   li {
@@ -107,7 +129,7 @@
     height: 12rem;
   }
 
-  .yearEvents {
+  .yearEvent {
     padding: 4rem 0rem 4rem 0rem;
     margin: 0 4rem 0rem 6rem;
     border-bottom: 0.088rem solid silver;
@@ -120,6 +142,10 @@
 
     li {
       margin: 8rem -1rem 0rem 0.5rem;
+    }
+
+    .outlet {
+      left: 48%;
     }
   }
 }

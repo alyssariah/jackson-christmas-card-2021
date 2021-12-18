@@ -6,6 +6,7 @@
   display: flex;
   flex-direction: column;
   position: relative;
+  z-index: 5;
   // height: 100vh;
   // overflow: scroll;
 }
@@ -87,7 +88,7 @@
     }
 
     p {
-      font-size: 0.875rem;
+      font-size: 1rem;
       line-height: 1.5rem;
       padding: 0;
     }
@@ -98,8 +99,8 @@
   .holidayMessage {
     p {
       flex-grow: 1;
-      font-size: 1rem;
-      line-height: 1.75rem;
+      font-size: 1.25rem;
+      line-height: 1.875rem;
       margin: 1rem 0;
     }
   }

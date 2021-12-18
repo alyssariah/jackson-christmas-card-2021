@@ -2,6 +2,7 @@ import "./App.scss";
 import Front from "./containers/Front/Front";
 import Back from "./containers/Back/Back";
 import Timeline from "./containers/Timeline/Timeline";
+import Footer from "./containers/Footer/Footer";
 
 function App() {
   const flipCard = () => {
@@ -20,6 +21,7 @@ function App() {
           <Back />
         </div>
         <Timeline />
+        <Footer />
       </div>
     </>
   );
