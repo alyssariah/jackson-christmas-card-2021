@@ -8,7 +8,7 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  width: 85%;
+  width: 90%;
   padding: 2rem 1rem 5rem 2rem;
 
   h2 {
@@ -48,7 +48,7 @@
 }
 
 .christmasLights {
-  width: 15%;
+  width: 10%;
   display: flex;
   align-items: stretch;
   justify-content: center;
@@ -136,12 +136,14 @@
   }
 
   .yearEvent {
+    width: 85%;
     padding: 4rem 0rem 4rem 0rem;
     margin: 0 4rem 0rem 6rem;
     border-bottom: 0.088rem solid silver;
   }
 
   .christmasLights {
+    width: 15%;
     .vl {
       justify-content: flex-start;
     }
