@@ -1,0 +1,43 @@
+.yearEvents {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 2rem 0 8rem 0;
+
+  .description {
+    max-width: 56rem;
+  }
+
+  h2 {
+    text-align: left;
+    font-size: 1.125rem;
+    color: #e5e5e5;
+  }
+
+  p {
+    text-align: left;
+    font-size: 1rem;
+    color: #e5e5e5;
+  }
+}
+
+.images {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  max-width: 56rem;
+  margin: 0.5rem 0;
+}
+
+.thumbnail {
+  border-radius: 0.25rem; /* Rounded border */
+  padding: 0.5rem; /* Some padding */
+  height: 12rem;
+  margin: 0 0.5rem 0.5rem 0;
+}
+
+/* Add a hover effect (blue shadow) */
+.thumbnail:hover {
+  border: 0.125rem solid #ddd; /* Gray border */
+  cursor: pointer;
+}
