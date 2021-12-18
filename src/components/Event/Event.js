@@ -26,10 +26,10 @@ export default function Event({ event, index }) {
       <div className="christmasLights">
         <ul className={!index ? "vl first" : "vl"}>
           {!index && (
-            <>
+            <div className="outletContainer">
               <div className="outlet"></div>
               <i className="fas fa-plug plug"></i>
-            </>
+            </div>
           )}
           <li className={inView ? event.color : null}></li>
         </ul>
