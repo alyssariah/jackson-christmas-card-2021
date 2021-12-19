@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/jackson-christmas-card-2021/static/css/main.509e7742.chunk.css",
-    "main.js": "/jackson-christmas-card-2021/static/js/main.1ed26f18.chunk.js",
-    "main.js.map": "/jackson-christmas-card-2021/static/js/main.1ed26f18.chunk.js.map",
+    "main.js": "/jackson-christmas-card-2021/static/js/main.fe33e813.chunk.js",
+    "main.js.map": "/jackson-christmas-card-2021/static/js/main.fe33e813.chunk.js.map",
     "runtime-main.js": "/jackson-christmas-card-2021/static/js/runtime-main.f455d754.js",
     "runtime-main.js.map": "/jackson-christmas-card-2021/static/js/runtime-main.f455d754.js.map",
     "static/js/2.ce287962.chunk.js": "/jackson-christmas-card-2021/static/js/2.ce287962.chunk.js",
@@ -13,6 +13,7 @@
     "static/css/main.509e7742.chunk.css.map": "/jackson-christmas-card-2021/static/css/main.509e7742.chunk.css.map",
     "static/js/2.ce287962.chunk.js.LICENSE.txt": "/jackson-christmas-card-2021/static/js/2.ce287962.chunk.js.LICENSE.txt",
     "static/media/alyssa_river.880d0542.jpeg": "/jackson-christmas-card-2021/static/media/alyssa_river.880d0542.jpeg",
+    "static/media/ben_selfie.c559ed11.jpg": "/jackson-christmas-card-2021/static/media/ben_selfie.c559ed11.jpg",
     "static/media/boat_cruise.ca3426a7.jpeg": "/jackson-christmas-card-2021/static/media/boat_cruise.ca3426a7.jpeg",
     "static/media/boston.287b4462.jpg": "/jackson-christmas-card-2021/static/media/boston.287b4462.jpg",
     "static/media/brian_profile.cc9b3bbb.jpg": "/jackson-christmas-card-2021/static/media/brian_profile.cc9b3bbb.jpg",
@@ -24,6 +25,7 @@
     "static/media/dc_cemetary.07be97de.jpeg": "/jackson-christmas-card-2021/static/media/dc_cemetary.07be97de.jpeg",
     "static/media/dc_gang.b8609cd8.jpeg": "/jackson-christmas-card-2021/static/media/dc_gang.b8609cd8.jpeg",
     "static/media/dc_image.72157df6.jpeg": "/jackson-christmas-card-2021/static/media/dc_image.72157df6.jpeg",
+    "static/media/doggie_world.9075ab7d.jpg": "/jackson-christmas-card-2021/static/media/doggie_world.9075ab7d.jpg",
     "static/media/duquesne_incline.23210259.jpeg": "/jackson-christmas-card-2021/static/media/duquesne_incline.23210259.jpeg",
     "static/media/duquesne_ride.e4514f61.jpeg": "/jackson-christmas-card-2021/static/media/duquesne_ride.e4514f61.jpeg",
     "static/media/Back.scss": "/jackson-christmas-card-2021/static/media/familyLove.a897db75.jpg",
@@ -36,6 +38,7 @@
     "static/media/laughs.d91a4d51.jpeg": "/jackson-christmas-card-2021/static/media/laughs.d91a4d51.jpeg",
     "static/media/lobster.72c8f4ef.jpg": "/jackson-christmas-card-2021/static/media/lobster.72c8f4ef.jpg",
     "static/media/nature.e3238072.jpeg": "/jackson-christmas-card-2021/static/media/nature.e3238072.jpeg",
+    "static/media/nc_kayaking.afdbc2b3.jpg": "/jackson-christmas-card-2021/static/media/nc_kayaking.afdbc2b3.jpg",
     "static/media/paige_bridge.c16b6f73.jpeg": "/jackson-christmas-card-2021/static/media/paige_bridge.c16b6f73.jpeg",
     "static/media/paige_monkey.39c223a3.jpeg": "/jackson-christmas-card-2021/static/media/paige_monkey.39c223a3.jpeg",
     "static/media/part_of_your_world.69744a42.jpeg": "/jackson-christmas-card-2021/static/media/part_of_your_world.69744a42.jpeg",
@@ -52,12 +55,13 @@
     "static/media/stair_climber.60f3882b.jpeg": "/jackson-christmas-card-2021/static/media/stair_climber.60f3882b.jpeg",
     "static/media/waterfall.5bffb935.jpg": "/jackson-christmas-card-2021/static/media/waterfall.5bffb935.jpg",
     "static/media/wheel_chair.f89adc6b.jpg": "/jackson-christmas-card-2021/static/media/wheel_chair.f89adc6b.jpg",
-    "static/media/witchcraft.0b6329ab.jpg": "/jackson-christmas-card-2021/static/media/witchcraft.0b6329ab.jpg"
+    "static/media/witchcraft.0b6329ab.jpg": "/jackson-christmas-card-2021/static/media/witchcraft.0b6329ab.jpg",
+    "static/media/world_doggo.5adbf84e.jpg": "/jackson-christmas-card-2021/static/media/world_doggo.5adbf84e.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.f455d754.js",
     "static/js/2.ce287962.chunk.js",
     "static/css/main.509e7742.chunk.css",
-    "static/js/main.1ed26f18.chunk.js"
+    "static/js/main.fe33e813.chunk.js"
   ]
 }
