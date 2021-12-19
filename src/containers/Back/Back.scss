@@ -7,15 +7,13 @@
   flex-direction: column;
   position: relative;
   z-index: 5;
-  // height: 100vh;
-  // overflow: scroll;
 }
 
 .holidayImage {
   background-image: url("../../assets/familyLove.jpg");
   background-size: cover;
   background-position: center;
-  width: 80%;
+  width: 100%;
   display: none;
 }
 
@@ -66,8 +64,6 @@
 @media (min-width: 1024px) {
   .back {
     flex-direction: row;
-    overflow: hidden;
-    height: 100vh;
   }
 
   .holidayImage {
@@ -88,7 +84,7 @@
     }
 
     p {
-      font-size: 0.875rem;
+      font-size: 1.25rem;
       line-height: 1.5rem;
       padding: 0;
     }
@@ -98,9 +94,8 @@
 @media (min-width: 1200px) {
   .holidayMessage {
     p {
-      flex-grow: 1;
-      font-size: 1.125rem;
-      line-height: 1.875rem;
+      font-size: 1.25rem;
+      line-height: 2rem;
       margin: 1rem 0;
     }
   }
