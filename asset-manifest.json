@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/jackson-christmas-card-2021/static/css/main.509e7742.chunk.css",
-    "main.js": "/jackson-christmas-card-2021/static/js/main.0d564e0b.chunk.js",
-    "main.js.map": "/jackson-christmas-card-2021/static/js/main.0d564e0b.chunk.js.map",
-    "runtime-main.js": "/jackson-christmas-card-2021/static/js/runtime-main.3c0526af.js",
-    "runtime-main.js.map": "/jackson-christmas-card-2021/static/js/runtime-main.3c0526af.js.map",
-    "static/js/2.3837a53d.chunk.js": "/jackson-christmas-card-2021/static/js/2.3837a53d.chunk.js",
-    "static/js/2.3837a53d.chunk.js.map": "/jackson-christmas-card-2021/static/js/2.3837a53d.chunk.js.map",
-    "static/js/3.ae560ac9.chunk.js": "/jackson-christmas-card-2021/static/js/3.ae560ac9.chunk.js",
-    "static/js/3.ae560ac9.chunk.js.map": "/jackson-christmas-card-2021/static/js/3.ae560ac9.chunk.js.map",
+    "main.js": "/jackson-christmas-card-2021/static/js/main.1ed26f18.chunk.js",
+    "main.js.map": "/jackson-christmas-card-2021/static/js/main.1ed26f18.chunk.js.map",
+    "runtime-main.js": "/jackson-christmas-card-2021/static/js/runtime-main.f455d754.js",
+    "runtime-main.js.map": "/jackson-christmas-card-2021/static/js/runtime-main.f455d754.js.map",
+    "static/js/2.ce287962.chunk.js": "/jackson-christmas-card-2021/static/js/2.ce287962.chunk.js",
+    "static/js/2.ce287962.chunk.js.map": "/jackson-christmas-card-2021/static/js/2.ce287962.chunk.js.map",
+    "static/js/3.a766b3b6.chunk.js": "/jackson-christmas-card-2021/static/js/3.a766b3b6.chunk.js",
+    "static/js/3.a766b3b6.chunk.js.map": "/jackson-christmas-card-2021/static/js/3.a766b3b6.chunk.js.map",
     "index.html": "/jackson-christmas-card-2021/index.html",
     "static/css/main.509e7742.chunk.css.map": "/jackson-christmas-card-2021/static/css/main.509e7742.chunk.css.map",
-    "static/js/2.3837a53d.chunk.js.LICENSE.txt": "/jackson-christmas-card-2021/static/js/2.3837a53d.chunk.js.LICENSE.txt",
+    "static/js/2.ce287962.chunk.js.LICENSE.txt": "/jackson-christmas-card-2021/static/js/2.ce287962.chunk.js.LICENSE.txt",
     "static/media/alyssa_river.880d0542.jpeg": "/jackson-christmas-card-2021/static/media/alyssa_river.880d0542.jpeg",
     "static/media/boat_cruise.ca3426a7.jpeg": "/jackson-christmas-card-2021/static/media/boat_cruise.ca3426a7.jpeg",
     "static/media/boston.287b4462.jpg": "/jackson-christmas-card-2021/static/media/boston.287b4462.jpg",
@@ -55,9 +55,9 @@
     "static/media/witchcraft.0b6329ab.jpg": "/jackson-christmas-card-2021/static/media/witchcraft.0b6329ab.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.3c0526af.js",
-    "static/js/2.3837a53d.chunk.js",
+    "static/js/runtime-main.f455d754.js",
+    "static/js/2.ce287962.chunk.js",
     "static/css/main.509e7742.chunk.css",
-    "static/js/main.0d564e0b.chunk.js"
+    "static/js/main.1ed26f18.chunk.js"
   ]
 }
