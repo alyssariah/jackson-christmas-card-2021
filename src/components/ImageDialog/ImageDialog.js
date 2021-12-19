@@ -10,7 +10,11 @@ export default function ImageDialog({ onClose, open, selectedImage }) {
 
   return (
     <Dialog onClose={handleClose} open={open} maxWidth="sm">
-      <img src={selectedImage.src} alt={selectedImage.alt} />
+      <img
+        className="dialogImage"
+        src={selectedImage.src}
+        alt={selectedImage.alt}
+      />
       {selectedImage.subtitle && (
         <p className="imageCaption">{selectedImage.subtitle}</p>
       )}

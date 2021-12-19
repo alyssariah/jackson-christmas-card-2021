@@ -8,7 +8,14 @@ export default function Timeline() {
     <div className="timeline">
       <div className="events" id="ref">
         {eventsData.map((event, index) => {
-          return <Event event={event} index={index} key={index} />;
+          return (
+            <Event
+              event={event}
+              index={index}
+              key={index}
+              last={index === eventsData.length - 1}
+            />
+          );
         })}
       </div>
     </div>

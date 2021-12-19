@@ -8,9 +8,8 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  width: 90%;
+  width: 93%;
   padding: 2rem 1rem 5rem 2rem;
-
   h2 {
     text-align: left;
     font-size: 1.25rem;
@@ -48,7 +47,7 @@
 }
 
 .christmasLights {
-  width: 10%;
+  width: 7%;
   display: flex;
   align-items: stretch;
   justify-content: center;
@@ -140,6 +139,10 @@
     padding: 4rem 0rem 4rem 0rem;
     margin: 0 4rem 0rem 6rem;
     border-bottom: 0.088rem solid silver;
+
+    &.last {
+      border-bottom: none;
+    }
   }
 
   .christmasLights {

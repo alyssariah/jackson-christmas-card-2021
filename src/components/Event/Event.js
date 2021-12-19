@@ -3,7 +3,7 @@ import { useInView } from "react-intersection-observer";
 import ImageDialog from "../ImageDialog/ImageDialog";
 import "./Event.scss";
 
-export default function Event({ event, index }) {
+export default function Event({ event, index, last }) {
   const [open, setOpen] = useState(false);
   const [image, setImage] = useState(event.images[0]);
   const [containerRef, inView] = useInView({
@@ -34,7 +34,7 @@ export default function Event({ event, index }) {
           <li className={inView ? event.color : null}></li>
         </ul>
       </div>
-      <div className="yearEvent" ref={containerRef}>
+      <div className={last ? "yearEvent last" : "yearEvent"} ref={containerRef}>
         <div className="description">
           <h2>{event.date}</h2>
           <p>{event.description}</p>
