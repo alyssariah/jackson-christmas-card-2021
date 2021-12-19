@@ -197,7 +197,7 @@ export const eventsData = [
         alt: "Kayaking with family in NC",
       },
     ],
-    color: "active yellow",
+    color: "active red",
   },
   {
     date: "August 7 - Philly",
