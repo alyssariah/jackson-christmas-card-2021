@@ -10,7 +10,7 @@ export default function Event({ event, index, last }) {
 
   const desktop = useMediaQuery("(min-width:1024px)");
   const [containerRef, inView] = useInView({
-    threshold: desktop ? 0.65 : 0.5,
+    threshold: desktop ? 0.65 : 0.55,
     trackVisibility: true,
     delay: 100,
   });

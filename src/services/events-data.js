@@ -38,6 +38,10 @@ import cuddlyPup from "../assets/cuddly_pup.jpeg";
 import captain from "../assets/ship_captian.jpeg";
 import personal_space from "../assets/personal_space.jpeg";
 import stairClimber from "../assets/stair_climber.jpeg";
+import ncKayaking from "../assets/nc_kayaking.jpg";
+import worldDoggo from "../assets/world_doggo.jpg";
+import benSelfie from "../assets/ben_selfie.jpg";
+import doggieWorld from "../assets/doggie_world.jpg";
 
 export const eventsData = [
   {
@@ -170,6 +174,30 @@ export const eventsData = [
       },
     ],
     color: "active green",
+  },
+  {
+    date: "July 15-18 - Doggie World in North Carolina",
+    description:
+      "River got to meet her doggie cousins Tot and Tater when we met up with Brian’s brother Ben and his wife Victoria halfway between Pennsylvania and Florida in North Carolina. We took the dogs to an awesome dog park (complete with water slides), and also got to meet up with Craig and Kate again, who lived very close by in Charlotte. ",
+    images: [
+      {
+        src: doggieWorld,
+        alt: "The whole group at doggie world",
+      },
+      {
+        src: worldDoggo,
+        alt: "River at doggie world",
+      },
+      {
+        src: benSelfie,
+        alt: "Kayaking Group Selfie",
+      },
+      {
+        src: ncKayaking,
+        alt: "Kayaking with family in NC",
+      },
+    ],
+    color: "active yellow",
   },
   {
     date: "August 7 - Philly",
