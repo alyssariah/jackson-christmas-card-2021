@@ -1,13 +1,16 @@
 import React, { useState } from "react";
 import { useInView } from "react-intersection-observer";
 import ImageDialog from "../ImageDialog/ImageDialog";
+import useMediaQuery from "@mui/material/useMediaQuery";
 import "./Event.scss";
 
 export default function Event({ event, index, last }) {
   const [open, setOpen] = useState(false);
   const [image, setImage] = useState(event.images[0]);
+
+  const desktop = useMediaQuery("(min-width:1024px)");
   const [containerRef, inView] = useInView({
-    threshold: 0.65,
+    threshold: desktop ? 0.65 : 0.5,
     trackVisibility: true,
     delay: 100,
   });
