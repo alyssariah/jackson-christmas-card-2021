@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/jackson-christmas-card-2021/static/css/main.509e7742.chunk.css",
-    "main.js": "/jackson-christmas-card-2021/static/js/main.fe33e813.chunk.js",
-    "main.js.map": "/jackson-christmas-card-2021/static/js/main.fe33e813.chunk.js.map",
+    "main.js": "/jackson-christmas-card-2021/static/js/main.dd187ec2.chunk.js",
+    "main.js.map": "/jackson-christmas-card-2021/static/js/main.dd187ec2.chunk.js.map",
     "runtime-main.js": "/jackson-christmas-card-2021/static/js/runtime-main.f455d754.js",
     "runtime-main.js.map": "/jackson-christmas-card-2021/static/js/runtime-main.f455d754.js.map",
     "static/js/2.ce287962.chunk.js": "/jackson-christmas-card-2021/static/js/2.ce287962.chunk.js",
@@ -62,6 +62,6 @@
     "static/js/runtime-main.f455d754.js",
     "static/js/2.ce287962.chunk.js",
     "static/css/main.509e7742.chunk.css",
-    "static/js/main.fe33e813.chunk.js"
+    "static/js/main.dd187ec2.chunk.js"
   ]
 }
