@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/jackson-christmas-card-2021/static/css/main.509e7742.chunk.css",
-    "main.js": "/jackson-christmas-card-2021/static/js/main.4ae42650.chunk.js",
-    "main.js.map": "/jackson-christmas-card-2021/static/js/main.4ae42650.chunk.js.map",
+    "main.js": "/jackson-christmas-card-2021/static/js/main.2d4e4317.chunk.js",
+    "main.js.map": "/jackson-christmas-card-2021/static/js/main.2d4e4317.chunk.js.map",
     "runtime-main.js": "/jackson-christmas-card-2021/static/js/runtime-main.f455d754.js",
     "runtime-main.js.map": "/jackson-christmas-card-2021/static/js/runtime-main.f455d754.js.map",
     "static/js/2.033a90bd.chunk.js": "/jackson-christmas-card-2021/static/js/2.033a90bd.chunk.js",
@@ -12,7 +12,6 @@
     "index.html": "/jackson-christmas-card-2021/index.html",
     "static/css/main.509e7742.chunk.css.map": "/jackson-christmas-card-2021/static/css/main.509e7742.chunk.css.map",
     "static/js/2.033a90bd.chunk.js.LICENSE.txt": "/jackson-christmas-card-2021/static/js/2.033a90bd.chunk.js.LICENSE.txt",
-    "static/media/ARKH-controller-white.f930baa0.glb": "/jackson-christmas-card-2021/static/media/ARKH-controller-white.f930baa0.glb",
     "static/media/alyssa_river.880d0542.jpeg": "/jackson-christmas-card-2021/static/media/alyssa_river.880d0542.jpeg",
     "static/media/ben_selfie.c559ed11.jpg": "/jackson-christmas-card-2021/static/media/ben_selfie.c559ed11.jpg",
     "static/media/boat_cruise.ca3426a7.jpeg": "/jackson-christmas-card-2021/static/media/boat_cruise.ca3426a7.jpeg",
@@ -63,6 +62,6 @@
     "static/js/runtime-main.f455d754.js",
     "static/js/2.033a90bd.chunk.js",
     "static/css/main.509e7742.chunk.css",
-    "static/js/main.4ae42650.chunk.js"
+    "static/js/main.2d4e4317.chunk.js"
   ]
 }
